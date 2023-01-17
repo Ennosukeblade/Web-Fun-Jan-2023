@@ -1,0 +1,27 @@
+body {
+font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+}
+span {
+    color: cyan;
+}
+h2 {
+    text-align: center;
+    background-color: purple;
+    font-style: italic;
+    color: white;
+}
+h3 {
+    text-align: right;
+    background-color: #9999ff;
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    padding: 15px;
+}
