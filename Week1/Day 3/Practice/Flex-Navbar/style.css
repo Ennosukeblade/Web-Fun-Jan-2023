@@ -9,7 +9,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .nav-links{
     width: 40%;
