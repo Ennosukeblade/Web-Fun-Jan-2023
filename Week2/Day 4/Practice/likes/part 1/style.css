@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 5% auto;
+    width: 60%;
+}
+.like-box {
+    min-width: 200px;
+    max-width: 350px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    font-size: large;
+}
+.description {
+    width: 100%;
+}
+.title {
+    font-size: x-large;
+    flex: 3;
+}
+button {
+    background-color: #ffd966;
+    padding: 4px 12px;
+    font-size: large;
+    box-shadow: 3px 3px black;
+}
+
+

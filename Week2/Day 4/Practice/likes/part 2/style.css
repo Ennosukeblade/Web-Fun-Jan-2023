@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 25%;
+    font-family: "Roboto", sans-serif;
+}
+.topbar{
+    background-color: black;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+}
+.badge {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*  flex: 1; */
+    min-width: 20%;
+    max-width: 100%;
+    height: fit-content;
+    gap: 20px;
+}
+img {
+    width: 64px;
+    border-radius: 50%;
+}
+.badge p {
+    font-size: larger;
+}
+.profiles {
+    /* flex: 4; */
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.like-box {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    font-size: large;
+}
+.description {
+    width: 100%;
+}
+.title {
+    font-size: x-large;
+    flex: 3;
+}
+button {
+    background-color: #ffd966;
+    padding: 4px 12px;
+    font-size: large;
+    box-shadow: 3px 3px black;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+}
