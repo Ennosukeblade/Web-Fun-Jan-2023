@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/**** container ****/
+
+.navbar{
+
+    justify-content: space-between;
+    background-color: #9fc5f8;
+    color: white;
+}
+.navbar, .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20%;
+    gap: 20px;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+}
+li {
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.page-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+#temp-select{
+    display: flex;
+    gap: 10px;
+}
+
+.page-body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.day{
+    background-color: #eeeeee;
+    flex: 1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+img{
+    width: 64px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.temperature{
+    display: flex;
+    gap: 50px;
+}
+#max-temp{
+    color: red;
+}
+#min-temp{
+    color: cornflowerblue;
+}
+#max-temp, #min-temp{
+    font-weight: 700;
+    font-size: large;
+}
+
+.cookies{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    position: fixed;
+    bottom: 5px;
+    left: 20%;
+    background-color: white;
+    width: 57%;
+
+}
+button {
+    padding: 4px 10px;
+    width: 10em;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background-color: #9fc5f8;
+    cursor: pointer;
+}
+
+.cookies a {
+color: midnightblue;
+}
+/* .cookies img {
+    width: 64px;
+} */
+
